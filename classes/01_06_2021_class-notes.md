@@ -1,4 +1,4 @@
-**1-16-2019**
+**1-06-2021**
 ## Class Notes - x-block p5.js
 
 Student led a live-coding session and did the following:
@@ -11,9 +11,11 @@ Student led a live-coding session and did the following:
 Edited the `index.html` to include the following in the `<head>`:  
 ``` 
 <!-- import the webpage's p5js pages -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+   
  ```
 - Added a link to the newly created `sketch.js` file right before the closing tag of the `</body>`
 in the `index.html`.
